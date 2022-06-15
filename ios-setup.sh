@@ -42,6 +42,7 @@ if installed rbenv-gemset; then
     echo "installed"
 else
     echo "not found! installing..."
+    brew install rbenv-gemset
 fi
 
 # 安装对应版本的ruby
